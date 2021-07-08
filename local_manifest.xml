@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest> 
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
- <project name="Cristian-J/android_device_lge_joan" path="device/lge/joan" remote="github" revision="aex" />
+ <project name="Cristian-J/android_device_lge_joan" path="device/lge/joan" remote="github" revision="aex2" />
  <project name="Cristian-J/android_kernel_lge_msm8998" path="kernel/lge/msm8998" remote="github" revision="vaccine_2" />
- <project name="Slowhy/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="pe-11" />
+ <project name="SupremMotu/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="eleven" />
  <project name="SupremMotu/android_device_lge_common" path="device/lge/common" remote="github" revision="eleven"/>
  <project name="SGCMarkus/android_hardware_lge" path="hardware/lge" remote="github" revision="lineage-18.1"/>
 </manifest> 
