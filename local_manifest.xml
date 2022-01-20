@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest> 
- <remote name="Stalick" fetch="https://github.com/Stalick" />
- <remote name="SGCMarkus" fetch="https://github.com/SGCMarkus" />
+ <remote name="Stalick" 
+         fetch="https://github.com/Stalick" />
+ <remote name="SGCMarkus" 
+         fetch="https://github.com/SGCMarkus" />
  
  <project name="android_device_lge_joan" path="device/lge/joan" remote="Stalick" revision="posp-12"/>
  <project name="android_kernel_lge_msm8998" path="kernel/lge/msm8998" remote="Stalick" revision="lineage-19.0"/>
