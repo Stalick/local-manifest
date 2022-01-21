@@ -10,4 +10,5 @@
  <project name="proprietary_vendor_lge" path="vendor/lge" remote="Stalick" revision="lineage-19.0"/>
  <project name="android_device_lge_common" path="device/lge/common" remote="SGCMarkus" revision="lineage-19.0"/>
  <project name="android_hardware_lge" path="hardware/lge" remote="SGCMarkus" revision="lineage-18.1"/>
+ <project name="LineageOS/android_lineage-sdk" path="lineage-sdk" remote="github" revision="lineage-19.0"/>
 </manifest> 
