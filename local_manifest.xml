@@ -4,10 +4,21 @@
          fetch="https://github.com/Stalick" />
  <remote name="SGCMarkus" 
          fetch="https://github.com/SGCMarkus" />
+ <remote name="PE" 
+         fetch="https://github.com/PixelExperience" />
  
  <project name="android_device_lge_joan" path="device/lge/joan" remote="Stalick" revision="posp-12"/>
  <project name="android_kernel_lge_msm8998" path="kernel/lge/msm8998" remote="Stalick" revision="lineage-19.0"/>
  <project name="proprietary_vendor_lge" path="vendor/lge" remote="Stalick" revision="lineage-19.0"/>
  <project name="android_device_lge_common" path="device/lge/common" remote="Stalick" revision="lineage-19.0"/>
  <project name="android_hardware_lge" path="hardware/lge" remote="SGCMarkus" revision="lineage-18.1"/>
+
+ <remove-project name="android_hardware_qcom_audio" />
+ <remove-project name="android_hardware_qcom_display" />
+ <remove-project name="android_hardware_qcom_media" />
+	
+ <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="PE" revision="twelve"/>
+ <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="PE" revision="twelve"/>
+ <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="PE" revision="twelve"/>
+
 </manifest> 
