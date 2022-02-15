@@ -4,22 +4,15 @@
          fetch="https://github.com/Stalick" />
  <remote name="SGCMarkus" 
          fetch="https://github.com/SGCMarkus" />
- <remote name="arrow" 
-         fetch="https://github.com/ArrowOS" />
  <remote name="Slowhy" 
          fetch="https://github.com/Slowhy" />
  
- <project name="android_device_lge_joan" path="device/lge/joan" remote="Stalick" revision="crdroid-12"/>
+ <project name="android_device_lge_joan" path="device/lge/joan" remote="Stalick" revision="aex-12"/>
  <project name="android_kernel_lge_msm8998" path="kernel/lge/msm8998" remote="Slowhy" revision="twelve"/>
  <project name="proprietary_vendor_lge" path="vendor/lge" remote="Stalick" revision="lineage-19.0"/>
  <project name="android_device_lge_common" path="device/lge/common" remote="Slowhy" revision="twelve"/>
  <project name="android_hardware_lge" path="hardware/lge" remote="Slowhy" revision="twelve"/>
 	
- <remove-project name="crdroidandroid/android_frameworks_native" />
- <project name="android_frameworks_native" path="frameworks/native" remote="Stalick" revision="12.0"/>
-
- <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="arrow" revision="arrow-12.0-caf-msm8998" />
- <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="arrow" revision="arrow-12.0-caf-msm8998" />
- <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="arrow" revision="arrow-12.0-caf-msm8998" />
-
+ <remove-project name="platform_frameworks_native" />
+ <project name="platform_frameworks_native" path="frameworks/native" remote="Stalick" revision="12.x"/>
 </manifest> 
