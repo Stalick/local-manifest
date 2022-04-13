@@ -1,8 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest> 
- <project name="Cristian-J/android_device_lge_joan" path="device/lge/joan" remote="github" revision="aex" />
- <project name="Cristian-J/android_kernel_lge_msm8998" path="kernel/lge/msm8998" remote="github" revision="vaccine_2" />
- <project name="Slowhy/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="pe-11" />
- <project name="SupremMotu/android_device_lge_common" path="device/lge/common" remote="github" revision="eleven"/>
- <project name="SGCMarkus/android_hardware_lge" path="hardware/lge" remote="github" revision="lineage-18.0"/>
+ <remote name="Stalick" 
+         fetch="https://github.com/Stalick" />
+ <remote name="Slowhy" 
+         fetch="https://github.com/Slowhy" />
+ <remote name="SGCMarkus" 
+         fetch="https://github.com/SGCMarkus" />
+ 
+ <project name="android_device_lge_joan" path="device/lge/joan" remote="Stalick" revision="posp-12"/>
+ <project name="android_kernel_lge_msm8998" path="kernel/lge/msm8998" remote="Slowhy" revision="twelve"/>
+ <project name="proprietary_vendor_lge" path="vendor/lge" remote="Stalick" revision="lineage-19.0"/>
+ <project name="android_device_lge_common" path="device/lge/common" remote="Slowhy" revision="twelve"/>
+ <project name="android_hardware_lge" path="hardware/lge" remote="SGCMarkus" revision="lineage-18.1"/>
+	
+ <remove-project name="frameworks_native"/>
+ <remove-project name="frameworks_base"/>
+ <remove-project name="packages_apps_Settings"/>
+ <remove-project name="platform/packages/modules/Connectivity"/>
+ <remove-project name="platform/packages/modules/Permission"/>
+ <remove-project name="platform/libcore"/>	
+ <remove-project name="vendor_potato"/>
+ <remove-project name="platform/system/netd"/>
+
+ <project name="system_netd" path="system/netd" remote="Stalick" revision="twelve"/>
+ <project name="frameworks_base" path="frameworks/base" remote="Stalick" revision="frico-release"/>
+ <project name="frameworks_native" path="frameworks/native" remote="Stalick" revision="frico-release"/>
+ <project name="packages_apps_Settings" path="packages/apps/Settings" remote="Stalick" revision="frico-release"/>
+ <project name="android_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="Stalick" revision="frico-release"/>
+ <project name="android_packages_modules_Permission" path="packages/modules/Permission" remote="Stalick" revision="frico-release"/>
+ <project name="android_libcore" path="libcore" remote="Stalick" revision="frico-release"/>
+ <project name="vendor_potato" path="vendor/potato" remote="Stalick" revision="frico-release"/>
 </manifest> 
