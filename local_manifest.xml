@@ -8,7 +8,7 @@
  <project name="android_device_lge_joan" path="device/lge/joan" remote="Stalick" revision="crdroid-12"/>
  <project name="android_kernel_lge_msm8998" path="kernel/lge/msm8998" remote="Slowhy" revision="twelve"/>
  <project name="proprietary_vendor_lge" path="vendor/lge" remote="Stalick" revision="lineage-19.0"/>
- <project name="android_device_lge_common" path="device/lge/common" remote="Slowhy" revision="pe-12"/>
+ <project name="android_device_lge_common" path="device/lge/common" remote="Slowhy" revision="twelve"/>
  <project name="android_hardware_lge" path="hardware/lge" remote="Slowhy" revision="twelve"/>
 	
  <remove-project name="crdroidandroid/android_frameworks_native" />
