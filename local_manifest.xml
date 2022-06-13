@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest> 
- <remote name="Corvus" fetch="https://github.com/Corvus-R"/>
- <remote name="Slowhy" fetch="https://github.com/Slowhy"/>
- <remote name="Stalick" fetch="https://github.com/Stalick"/>
- 
- <project name="android_device_lge_joan" path="device/lge/joan" remote="Stalick" revision="corvus-12"/>
- <project name="android_kernel_lge_msm8998" path="kernel/lge/msm8998" remote="Slowhy" revision="twelve"/>
- <project name="proprietary_vendor_lge" path="vendor/lge" remote="Stalick" revision="lineage-19.0"/>
- <project name="android_device_lge_common" path="device/lge/common" remote="Slowhy" revision="twelve"/>
- <project name="android_hardware_lge" path="hardware/lge" remote="Slowhy" revision="twelve"/>
+    <remote name="Corvus" fetch="https://github.com/Corvus-R"/>
+    <remote name="Lineage" fetch="https://github.com/LineageOS"/>
+    <remote name="Slowhy" fetch="https://github.com/Slowhy"/>
+    <remote name="Stalick" fetch="https://github.com/Stalick"/>
 	
- <remove-project name="android_bootable_recovery"/>
- <remove-project name="android_frameworks_native"/>
+    <project name="android_device_lge_joan" path="device/lge/joan" remote="Stalick" revision="corvus-12"/>
+    <project name="android_kernel_lge_msm8998" path="kernel/lge/msm8998" remote="Slowhy" revision="twelve"/>
+    <project name="proprietary_vendor_lge" path="vendor/lge" remote="Stalick" revision="lineage-19.0"/>
+    <project name="android_device_lge_common" path="device/lge/common" remote="Slowhy" revision="twelve"/>
+    <project name="android_hardware_lge" path="hardware/lge" remote="Slowhy" revision="twelve"/>
+	
+    <remove-project name="android_bootable_recovery"/>
+    <remove-project name="android_frameworks_native"/>
+    <remove-project name="android_hardware_qcom_audio"/>
+    <remove-project name="android_hardware_qcom_display"/>
+    <remove-project name="android_hardware_qcom_media"/>
+    <remove-project name="android_vendor_qcom_opensource_interfaces"/>
 
- <project name="android_bootable_recovery" path="bootable/recovery" remote="Corvus" revision="12-test"/>
- <project name="android_frameworks_native" path="frameworks/native" remote="Stalick" revision="12-test"/>
+    <project path="bootable/recovery" name="android_bootable_recovery" remote="Corvus" revision="12-test"/>
+    <project path="frameworks/native" name="android_frameworks_native" remote="Stalick" revision="12-test"/>
+    <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="Lineage" revision="lineage-19.1-caf-msm8998" />
+    <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="Lineage" revision="lineage-19.1-caf-msm8998" />
+    <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="Lineage" revision="lineage-19.1-caf-msm8998" />
+    <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="Stalick" revision="12"/> 
 </manifest> 
