@@ -9,8 +9,7 @@
  <project name="android_kernel_lge_msm8998" path="kernel/lge/msm8998" remote="lifehackerhansol" revision="lineage-19.1"/>
  <project name="proprietary_vendor_lge" path="vendor/lge" remote="lifehackerhansol" revision="lineage-19.1"/>
  <project name="android_device_lge_common" path="device/lge/common" remote="lifehackerhansol" revision="lineage-19.1"/>
- <project name="SGCMarkus/android_hardware_lge" path="hardware/lge" remote="github" revision="lineage-19.1"/>
- <project name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r416183b1" path="prebuilts/clang/host/linux-x86/clang-r416183b1" remote="github" revision="11.0" clone-depth="1"/>
+ <project name="android_hardware_lge" path="hardware/lge" remote="lifehackerhansol" revision="lineage-19.1"/>
 	
  <remove-project name="crdroidandroid/android_frameworks_native" />
  <project name="android_frameworks_native-crdroid" path="frameworks/native" remote="Stalick" revision="12.1"/>
