@@ -13,4 +13,5 @@
 	
  <remove-project name="crdroidandroid/android_frameworks_native" />
  <project name="android_frameworks_native-crdroid" path="frameworks/native" remote="Stalick" revision="12.1"/>
+ <project name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r416183b1" path="prebuilts/clang/host/linux-x86/clang-r416183b1" remote="github" revision="11.0" clone-depth="1"/>
 </manifest> 
